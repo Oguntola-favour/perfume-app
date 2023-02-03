@@ -1,0 +1,125 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    height: 100vh;
+    background: #F3EAE3;
+}
+@media screen and  (max-width: 1440px) and (min-width: 1024px)  {
+    .container {
+        width: 70% !important;
+    }
+}
+
+
+@media screen and (min-width: 1024px) {
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .container {
+        display: flex;
+    }
+    .image img {
+        width: 400px;
+        height: 500px;
+        border-top-left-radius: 20px;
+        border-bottom-left-radius: 20px;
+    }
+
+    .container {
+        border-radius: 20px;
+        background: #fff;
+        width: 50%;
+        height: 500px;
+    }
+    .text-1 {
+        font-size: 14px;
+        font-weight: 12px;
+    }
+    .bold-text {
+        font-size: 33px !important;
+        font-weight: 900;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .image img{
+        object-fit: contain;
+        width: 100%;
+    }
+    .container {
+        margin: 20px 10px;
+        overflow: auto;
+        background: #fff;
+        border-radius: 15px;
+    }
+}
+
+
+
+.text-container {
+    padding: 30px;
+}
+
+.text{
+    font-family: montserrat;
+    font-size: 10px;
+    font-weight: 10px;
+    letter-spacing: 5px;
+    color: darkgrey;
+}
+.bold-text{
+    color: black;
+    font-weight: bolder;
+    font-size: 27px;
+    margin: 20px 0;
+}
+.text-1{
+    font-family: montserrat;
+    color: darkgrey;
+    margin: 25px 0;
+}
+.prices {
+    display: flex;
+    margin: 20px 0;
+}
+
+.price{
+    color: darkcyan;
+}
+.small-price-flex {
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+}
+.small-price{
+    color: darkgray;
+}
+.button{
+    width: 100%;
+    height: 50px;
+    border-radius: 5px;
+    padding: 10px 0;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    margin-top: 20px;
+    background: darkcyan;
+}
+
+.button p {
+    color: #fff;
+    margin-left: 10px;
+}
+ .button:hover{
+    background: rgb(2, 83, 83);
+    color: white;
+} 
